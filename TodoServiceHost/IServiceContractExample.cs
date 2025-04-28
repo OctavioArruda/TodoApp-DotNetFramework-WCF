@@ -1,7 +1,9 @@
 ﻿using System.ServiceModel;
 
 namespace TodoServiceHost
-{
+{    
+    /* DISCLAIMER: This is not being used, only kept as reference */
+
     // [ServiceContract]
     // This attribute marks the IServiceContractExample interface as a WCF service contract.
     // A service contract defines the set of operations (methods) that the service exposes to clients.
