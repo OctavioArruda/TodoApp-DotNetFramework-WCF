@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-// Reference the service library
 using TodoServiceLibrary;
 
 namespace TodoServiceLibraryTestClient
