@@ -119,6 +119,19 @@ public class TodoService : ITodoService
             * `serviceMetadata httpGetEnabled="true"`: Enables the service to publish metadata (WSDL) using HTTP GET requests. This is necessary for clients to generate proxies or understand the service's interface.
             * `serviceDebug includeExceptionDetailInFaults="true"`: Controls how much exception information is sent to clients. `true` is used for debugging (allows clients to see detailed error messages), while `false` is recommended for production (for security).
 
+##   🧪 Postman Testing
+
+For convenient testing of the WCF service, a Postman collection file is included in the project's root directory: `TodoService WCF Tests.postman_collection.json`.
+
+To use this collection:
+
+1.  **Ensure the service is running** as described in the [Hosting the WCF Service in IIS](#-hosting-the-wcf-service-in-iis-step-by-step) section.
+2.  **Import the collection** into Postman.
+3.  Modify any necessary variables (e.g., the service URL) to match your local setup.
+4.  Execute the requests within the collection to test the service operations.
+
+Refer to the [Testing the WCF Service with Postman](#-testing-the-wcf-service-with-postman) section in the `test.md` file for detailed instructions on constructing SOAP requests and interpreting responses.
+
 ## 🏃‍♀️ Running the Application (Testing within the Solution)
 
 The `TodoServiceTestClient` project allows you to test the service logic directly within Visual Studio.

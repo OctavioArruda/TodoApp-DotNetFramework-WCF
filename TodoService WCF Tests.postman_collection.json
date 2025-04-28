@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "e3c4e2bc-d948-4e89-8d97-707813ab118a",
+		"name": "TodoService WCF Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44511494"
+	},
+	"item": [
+		{
+			"name": "GetAllTodoItems",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ITodoService/GetAllTodoItems\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\">\r\n   <soapenv:Header/>\r\n   <soapenv:Body>\r\n      <tem:GetAllTodoItems/>\r\n   </soapenv:Body>\r\n</soapenv:Envelope>"
+				},
+				"url": {
+					"raw": "http://localhost:65444/TodoService.svc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65444",
+					"path": [
+						"TodoService.svc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTodoItem",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ITodoService/GetAllTodoItems\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\">\r\n   <soapenv:Header/>\r\n   <soapenv:Body>\r\n      <tem:GetAllTodoItems/>\r\n   </soapenv:Body>\r\n</soapenv:Envelope>"
+				},
+				"url": {
+					"raw": "http://localhost:65444/TodoService.svc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65444",
+					"path": [
+						"TodoService.svc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddTodoItem",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ITodoService/AddTodoItem\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\" xmlns:tod=\"http://schemas.datacontract.org/2004/07/TodoServiceLibrary\">\r\n    <soapenv:Header/>\r\n    <soapenv:Body>\r\n        <tem:AddTodoItem>\r\n            <tem:item>\r\n            <tod:Id>0</tod:Id>  <tod:Title>Buy groceries</tod:Title>\r\n            <tod:IsCompleted>false</tod:IsCompleted>\r\n            </tem:item>\r\n        </tem:AddTodoItem>\r\n    </soapenv:Body>\r\n</soapenv:Envelope>"
+				},
+				"url": {
+					"raw": "http://localhost:65444/TodoService.svc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65444",
+					"path": [
+						"TodoService.svc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTodoItem",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ITodoService/AddTodoItem\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\" xmlns:tod=\"http://schemas.datacontract.org/2004/07/TodoServiceLibrary\">\r\n    <soapenv:Header/>\r\n    <soapenv:Body>\r\n        <tem:AddTodoItem>\r\n            <tem:item>\r\n            <tod:Id>0</tod:Id>  <tod:Title>Buy groceries</tod:Title>\r\n            <tod:IsCompleted>false</tod:IsCompleted>\r\n            </tem:item>\r\n        </tem:AddTodoItem>\r\n    </soapenv:Body>\r\n</soapenv:Envelope>"
+				},
+				"url": {
+					"raw": "http://localhost:65444/TodoService.svc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65444",
+					"path": [
+						"TodoService.svc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTodoItem",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ITodoService/AddTodoItem\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\" xmlns:tod=\"http://schemas.datacontract.org/2004/07/TodoServiceLibrary\">\r\n    <soapenv:Header/>\r\n    <soapenv:Body>\r\n        <tem:AddTodoItem>\r\n            <tem:item>\r\n            <tod:Id>0</tod:Id>  <tod:Title>Buy groceries</tod:Title>\r\n            <tod:IsCompleted>false</tod:IsCompleted>\r\n            </tem:item>\r\n        </tem:AddTodoItem>\r\n    </soapenv:Body>\r\n</soapenv:Envelope>"
+				},
+				"url": {
+					"raw": "http://localhost:65444/TodoService.svc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65444",
+					"path": [
+						"TodoService.svc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
