@@ -5,3 +5,13 @@ C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceLibrary\obj\Debug\To
 C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.dll
 C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.pdb
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\bin\Debug\TodoServiceLibrary.dll.config
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\bin\Debug\TodoServiceLibrary.dll
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\bin\Debug\TodoServiceLibrary.pdb
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.csproj.AssemblyReference.cache
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\obj\Debug\TodoServ.8288BA17.Up2Date
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.dll
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceLibrary\obj\Debug\TodoServiceLibrary.pdb

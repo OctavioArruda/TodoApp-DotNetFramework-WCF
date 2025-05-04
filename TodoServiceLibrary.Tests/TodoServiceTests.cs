@@ -13,7 +13,7 @@ namespace TodoServiceLibrary.Tests
         [TestInitialize]
         public void TestInitialize()
         {
-            _service = new TodoService();
+            _service = new TodoService(new DeprecatedDependencyInjectionDemo());
             // Initialize with known data for consistent testing
             _service.GetAllTodoItems().Clear(); // Clear existing data
             _testItem1 = new TodoItem { Id = 1, Title = "Initial Item 1", IsCompleted = false };

@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="TodoServiceLibrary.TodoService" CodeBehind="TodoService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TodoServiceLibrary.TodoService" Factory="TodoServiceHost.TodoServiceSvcFactory" %>

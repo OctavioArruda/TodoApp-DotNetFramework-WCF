@@ -9,3 +9,16 @@ C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceTestClient\obj\Debug
 C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceTestClient\obj\Debug\TodoServ.C1490E6C.Up2Date
 C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceTestClient\obj\Debug\TodoServiceTestClient.exe
 C:\Users\Octavio\source\repos\TodoServiceLibrary\TodoServiceTestClient\obj\Debug\TodoServiceTestClient.pdb
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\TodoServiceTestClient.exe.config
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\TodoServiceTestClient.exe
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\TodoServiceTestClient.pdb
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\TodoServiceLibrary.dll
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\EntityFramework.dll
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\TodoServiceLibrary.pdb
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\TodoServiceLibrary.dll.config
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\bin\Debug\EntityFramework.xml
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\obj\Debug\TodoServiceTestClient.csproj.AssemblyReference.cache
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\obj\Debug\TodoServiceTestClient.csproj.CoreCompileInputs.cache
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\obj\Debug\TodoServ.C1490E6C.Up2Date
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\obj\Debug\TodoServiceTestClient.exe
+C:\Users\Octavio\source\repos\TodoServiceLibraryModernized\TodoServiceTestClient\obj\Debug\TodoServiceTestClient.pdb
